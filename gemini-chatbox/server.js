@@ -5,7 +5,7 @@ require('dotenv').config(); // Untuk memuat variabel lingkungan dari file .env
 
 // Inisialisasi aplikasi Express
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 // Middleware untuk parsing JSON dan melayani file statis dari folder 'public'
 app.use(express.json());
