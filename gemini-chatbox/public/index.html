@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI Chatbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>MH AI chat</h1>
+            <p>Meaningfull Happiness</p>
+        </header>
+        <main id="chat-window" class="chat-window"></main>
+        <div id="loader" class="loader-container" style="display: none;"><div class="loader"></div></div>
+        <footer class="chat-footer">
+            <form id="message-form" class="message-form">
+                <input type="text" id="message-input" placeholder="Ketik pesan Anda di sini..." autocomplete="off" required>
+                <button type="submit">Kirim</button>
+            </form>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
